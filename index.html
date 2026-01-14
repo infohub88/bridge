@@ -1,61 +1,57 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <title>Information</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      padding: 30px;
-    }
-    .box {
-      background: #ffffff;
-      max-width: 600px;
-      margin: auto;
-      padding: 30px;
-      border-radius: 8px;
-    }
-    h1 {
-      font-size: 22px;
-    }
-    p {
-      line-height: 1.6;
-    }
-    a.btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
-      background: #000;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .tip {
-      margin-top: 15px;
-      font-size: 13px;
-      color: #777;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Information</title>
+<style>
+body{
+  margin:0;
+  background:#f6f6f6;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;
+}
+.box{
+  max-width:420px;
+  width:92%;
+  background:#fff;
+  border-radius:16px;
+  padding:16px;
+  text-align:center;
+  box-shadow:0 6px 20px rgba(0,0,0,.06);
+}
+img{
+  width:100%;
+  border-radius:12px;
+  display:block;
+}
+a{
+  display:block;
+  margin-top:16px;
+  padding:14px;
+  background:#000;
+  color:#fff;
+  text-decoration:none;
+  border-radius:12px;
+  font-size:16px;
+}
+.small{
+  margin-top:10px;
+  font-size:12px;
+  color:#888;
+}
+</style>
 </head>
+
 <body>
   <div class="box">
-    <h1>About This Page</h1>
-    <p>
-      This page is provided for informational purposes only.
-      It introduces an external communication channel where
-      related content may be shared.
-    </p>
-    <p>
-      Please review the information before continuing.
-    </p>
-
-    <a class="btn" href=https://t.me/aiqing5210>Learn More</a>
-
-    <div class="tip">
-      You will be redirected to a third-party platform.
-    </div>
+    <img src="banner.jpg" alt="info">
+    <a href="https://t.me/aiqing5210 target="_blank" rel="noopener">点击继续</a>
+    <div class="small">将跳转至第三方平台</div>
   </div>
 </body>
 </html>
